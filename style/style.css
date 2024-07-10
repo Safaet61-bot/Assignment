@@ -1,0 +1,64 @@
+.h3{
+    width: 128px;
+    height:33px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.dwn-btn{
+    color:#0D1321;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 130px;
+    height: 30px;
+    margin-right: 10px;
+
+    border-radius: 8px;
+    border: 1px solid #1d0d21;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+.image{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.bgm1{
+    margin-top: 298;
+    margin-bottom: 298;
+    margin-left: 221px;
+    margin-right: 221px;
+}
+.para{
+    text-align: center;
+    text-decoration: ;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
+.hudai{
+    align-items: center;
+
+.btn1{
+    background-color: #0D1321;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+   
+} 
+.h4{
+    color:#FFFFFF;
+}
+/* .middle{
+    display: flex;
+    justify-content: center;
+} */
+.h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
