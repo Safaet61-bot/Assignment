@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono-normal{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 .header{
 
 }
@@ -36,20 +45,190 @@
     flex-direction: column;
     background-color:rgba(13, 19, 33, 0.02);
 }
-.dwn-btn{
-    color:#0D1321;
-    text-align: center;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    width: 130px;
-    height: 30px;
-    margin-right: 10px;
+.inspiration{
+    margin-left: 300px;
+    margin-right: 300px;
+    /* padding-right: 50px;
+    padding-left: 50px; */
 
-    border-radius: 8px;
-    border: 1px solid #1d0d21;
 }
+.video-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+.video-container{
+    border-radius: 16px;
+   margin-top: 20px;
+   padding: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+    
+}
+.Current-Target{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+.previous{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:5px;
+    
+}
+.one{
+    background-color: rgba(240, 237, 243, 0.105);
+    padding: 40px;
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+}
+.two{
+    background-color: rgba(0, 232, 217, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+}
+.Three{
+    background-color: rgba(0, 255, 26, 0.05);;
+    padding: 40px;
+    border-radius: 16px;
+    width: 200px;
+    height: 200px;
+}
+.End{
+    background-image: url("../assets/handshake.jpg");
+background-color: rgba(0,0, 0, 0.5);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 285px;
+  
+   background-position: 0%;
+   margin-left: 160px;
+   margin-right: 160px;
+
+   border-radius: 16px;
+   margin-top: 50px;
+padding: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.End-box{
+    background-image: url("../assets/handshake.jpg");
+ background-color: rgba(0,0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 285px;
+   
+    background-position: 0%;
+    margin-left: 160px;
+    margin-right: 160px;
+ 
+    border-radius: 16px;
+    margin-top: 50px;
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ 
+     }
+     
+ 
+ 
+ 
+     .text-box{
+ 
+ 
+ position: static;
+ width: 548px;
+ height: 47px;
+ 
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
+ padding: 19px 20px 19px 20px;
+ 
+ 
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ margin: 0px 16px;
+ 
+     }
+     .i{
+       display: inline;
+       width: 420px;
+ height: 10px;
+ border:10px solid white ;
+ border-radius: 10px;
+ 
+     }
+     .btn-container-submit{
+        width: 100px;
+ height: 65px;
+ margin-top:15px ;
+ border: 10px solid white;
+ border-radius:10px ;
+ background-color: white;
+     }
+ 
+     .Endtext-1{
+ 
+       color: white;
+       font-weight: 700;
+       font-size: 32px;
+     }
+     .Endtext-2{
+ 
+       color: white;
+       font-size: 16px;
+       font-weight: 400;
+     }
+    .footer{
+ 
+ 
+     display: flex;
+     margin-top: 75px;
+     flex-direction: row;
+     gap:580px;
+     padding: 120px,100px;
+     height: 70px;
+  
+    background-color:rgba(13, 19, 33, 0.03) ;
+    
+   } 
+   .text9{
+ 
+ margin-top: 20px;
+ font-size: 16px;
+ font-weight: 600;
+      margin-left: 170px;
+   }
+   .icon1{
+ margin-top: 20px;
+     margin-right: 150px;
+     display: inline;
+   }
+
+.
 .nav{
     display:flex;
     justify-content: space-between;
@@ -136,10 +315,7 @@ margin: 24px 0px;
     display: flex;
     justify-content: center;
 }
-.Current Traget{
-    display: flex;
-    justify-content: center;
-}
+
 .section-2{
     position: absolute;
     width: 1140px;
